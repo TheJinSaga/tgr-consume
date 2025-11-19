@@ -1,7 +1,6 @@
-<img width="2948" height="497" alt="rsg_framework" src="https://github.com/user-attachments/assets/638791d8-296d-4817-a596-785325c1b83a" />
 
-# 🍞 rsg-consume
-**Universal consumption system for RedM using RSG Core.**
+# 🍞 tgr-consume
+**Universal consumption system for RedM using RSG Core, modified from rsg-consume.**
 
 ![Platform](https://img.shields.io/badge/platform-RedM-darkred)
 ![License](https://img.shields.io/badge/license-GPL--3.0-green)
@@ -133,14 +132,14 @@ coffee  = { name = 'coffee',  label = 'Cup of Coffee',      weight = 80,  type =
 ---
 
 ## 📂 Installation
-1. Place `rsg-consume` inside your `resources/[rsg]` folder.  
+1. Place `tgr-consume` inside your `resources/[rsg]` folder.  
 2. Ensure `rsg-core`, `rsg-inventory`, and `ox_lib` are installed.  
 3. Add to your `server.cfg`:
    ```cfg
    ensure ox_lib
    ensure rsg-core
    ensure rsg-inventory
-   ensure rsg-consume
+   ensure tgr-consume
    ```
 4. Restart your server.
 
